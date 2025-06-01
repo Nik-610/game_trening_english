@@ -8,7 +8,7 @@ import os
 
 r = sr.Recognizer()
 translator = Translator()
-bot = telebot.TeleBot('7614311120:AAF7XucXR95-a4MY3SyMbdbM2rKnwB9iOHw')
+bot = telebot.TeleBot('YOUR_BOT_TOKEN')
 words_easy = ['Привет', 'Волк', 'Вода', 'Дом', 'Чай']
 words_middle = ['Пока', 'Энергия', 'Дождь', 'Блокнот', 'Дверь', 'Улица']
 words_hard = ['Часы', 'Компьютер', 'Звук', 'Стул', 'Кофе', 'Велосипед', 'Кровать']
